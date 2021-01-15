@@ -43,10 +43,29 @@ const answers = [];
 
 // console.log(typeof(answers));
 
-const category = 'toys';
+// const category = 'toys';
 
-console.log(`https://someurl.com/${category}/5`);
+// console.log(`https://someurl.com/${category}/5`);
 
-const user = "Artem";
+// const user = "Artem";
 
-alert(`Привет, ${user}`);
+// alert(`Привет, ${user}`);
+
+console.log('arr' + " - object");
+
+let incr = 10,
+    decr = 10;
+// ++incr;
+// --decr;
+
+console.log(incr++);
+console.log(decr--);
+
+console.log(5%2);
+
+console.log(2*4 === 8);
+
+const isChecked = true,
+    isClose = false;
+
+console.log(isChecked || isClose);
